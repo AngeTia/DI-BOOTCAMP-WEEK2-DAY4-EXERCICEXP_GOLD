@@ -1,22 +1,22 @@
 // exercice 1
 // part 1
 function infoAboutMe(){
-    console.log("je suis diarrassouba seydou,j'ai 25 ans, je joue au football");
+    console.log("Hi i'm Ange Tia,i have 27 years old, i play football");
 } 
 infoAboutMe()
 
 // part2
 function infoAboutPerson(personName, personAge, personFavoriteColor){
-    console.log("mon nom est "+ personName + " j'ai "+  personAge + " ans et ma couleur préferé est " + personFavoriteColor)
+    console.log("my name's "+ personName + " i have "+  personAge + " years old and my favorite color's " + personFavoriteColor)
 }
-infoAboutPerson("kone", 45, "orange")
-infoAboutPerson("Joe", 12, "yellow")
+infoAboutPerson("John", 45, "orange")
+infoAboutPerson("Petter", 27, "yellow")
 
 
 // exercice2
  function calculateTip(){
     
-    let facture =prompt("   John quel est le montant de la facture?" )
+    let facture =prompt(" John quel est le montant de la facture?" )
     facture = parseFloat(facture)
     let pourboire;
     if(facture < 50 ){
